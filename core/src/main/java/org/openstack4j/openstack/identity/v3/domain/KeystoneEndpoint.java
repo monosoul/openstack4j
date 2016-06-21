@@ -345,4 +345,9 @@ public class KeystoneEndpoint implements Endpoint {
 
     }
 
+    @Override
+    public void setUrl(URL url) {
+        this.url = url;
+    }
+
 }
