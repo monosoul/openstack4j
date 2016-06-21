@@ -63,7 +63,7 @@ public interface Endpoint extends ModelEntity, Buildable<EndpointBuilder> {
     URL getUrl();
     
     /**
-     * @return set the URL of the endpoint
+     * set the URL of the endpoint
      */
     void setUrl(URL url);
 
